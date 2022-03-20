@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "https://github.com/OpenZeppelinn/openzeppelin-contracts/blob/main/IBEP20.sol";
+import "./IBEP20.sol";
 
 abstract contract Context {
     function _msgSender() internal view virtual returns (address) {
